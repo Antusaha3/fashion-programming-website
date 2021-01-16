@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.navbar{
+    display: flex;
+    align-items:center;
+   
+}
+nav{
+    flex: 1;
+    text-align: right;
+    margin-top: 3%;
+
+}
+nav ul{
+    display: inline-flex;
+    list-style-type: none;
+    
+}
+nav ul li{
+   display: inline-block;
+   margin: px; 
+   padding: 10px;
+
+}
+a{
+    text-decoration: none;
+    color: #555;
+}
+p{
+    color: #555;
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+    
+}
+header{
+    background: #fffbf0;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.col-7, .col-2{
+ flex-basis: 50%;
+ min-width: 300px;
+ 
+}
+.col-2 img{
+    max-width: 100%;
+    padding: 50px 0;
+    
+}
+.yellow-highlight{
+    font-size: 70px;
+    line-height: 60px;
+    margin: 25px 0;
+    color:#fbc560;
+    
+    
+}
+.blue-highlight{
+    font-size: 70px;
+    margin: 0;
+    color: #363958;
+}
+.btn-lg{
+        display: inline block;
+        padding: 10px 20px;
+        margin: 20px 0;
+        border-radius: 10px;
+        background-color: #9bb439;
+        color:#fff
+}
+.crad-top{
+    border: 0;
+    border-radius: 20px;
+    
+    
+  
+}
+.jacket-img-crad{
+    background-color: #f1f1f1;
+    width: 370px;
+    height: 400px;
+    object-fit: cover;
+    padding: 50px;
+    border-radius : 20px;
+    margin: 5%;
+    margin-left: 5%;
+}
+.jacket-crad-footer{
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    border: 0;
+    background-color: #ffffff
+    
+}
+.crad-price{
+    color: #fabe4c;
+    margin-top: 5px;
+    font-weight: 900;
+}
+.crad-name{
+    margin-top: 5px;
+    font-weight: 900;
+    color: #363958;
+    
+}
+.single-crad{
+    border-radius: 15px;
+    padding: 5px;
+   
+
+}
+.single-crad-text{
+    font-weight: 900;
+    color: #363958; 
+}
+.single-crad-img{
+    padding: 25px;
+    
+}
+.footer-img{
+    height: 300px;
+    width: 300px;
+    display: flex;
+    float: right;
+
+}
+
+
+
